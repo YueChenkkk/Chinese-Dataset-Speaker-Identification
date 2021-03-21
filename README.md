@@ -17,6 +17,6 @@ Each subset is further divided into 3 sub-categories *explicit*, *implicit* and 
 Besides, the name list and speech verb set is also provided. The speech verb set is used for the categorization mentioned above.
 
 ## Data Format
-In each data file, instances are seperated by a blank line. Each instance crosses 24 lines. The first line indicates the index of the instance in the file. The following 21 lines are the continuous sentences for speaker identification, which is extracted from the novel. Among them the 11th sentence is the center quote whose speaker needs to be identified. The following two lines are the name of the true speaker of the center quote, and the index of the true speaker in the name list (line index in name_list.txt).
+In each data file, instances are seperated by a blank line. Each instance crosses 24 lines. The first line indicates the index of the instance in the file. The following 21 lines are the continuous sentences for speaker identification, which were extracted from the novel. Among them the 11th sentence is the center quote whose speaker needs to be identified. The following two lines are the name of the true speaker of the center quote, along with the index of the true speaker in the name list (line index in name_list.txt).
 
 In name_list.txt, each line lists the aliases of a novel character. The binary number 0/1 in front of the aliases is the gender information of that character, 0 for female and 1 for male.
