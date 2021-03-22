@@ -14,7 +14,7 @@ Each subset is further divided into 3 sub-categories *explicit*, *implicit* and 
 |Dev  |  44      |  31      |  223   |
 |Test |  44      |  29      |  225   |
 
-Besides, the name list and speech verb set is also provided. The speech verb set is used for the categorization mentioned above.
+Besides, the name list and speech verb set are also provided. The speech verb set is used for the categorization mentioned above.
 
 ## Data Format
 In each data file, instances are seperated by a blank line. Each instance crosses 24 lines. The first line indicates the index of the instance in the file. The following 21 lines are the continuous sentences for speaker identification, which were extracted from the novel. Among them the 11th sentence is the center quote whose speaker needs to be identified. The following two lines are the name of the true speaker of the center quote, along with the index of the true speaker in the name list (line index in name_list.txt).
