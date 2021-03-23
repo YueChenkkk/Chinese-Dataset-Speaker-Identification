@@ -6,7 +6,7 @@ This dataset was first released by Jiaxiang Chen in his paper "A Chinese Dataset
 ## Content
 The data has been divided into training set, development set and test set, containing 2000, 298 and 298 instances respectively. The subsets are saved in 3 different directories dataset/train, dataset/dev and dataset/test.
 
-Each subset is further divided into 3 sub-categories *explicit*, *implicit* and *latent*, as mentioned in Chen's paper. Instances of different categories are saved in seperate files. xxx_unsplit.txt keeps all the instances in the three categories combined. The number of instances in each category is listed in the table. 
+Each subset is further divided into 3 sub-categories *explicit*, *implicit* and *latent*, as mentioned in Chen's paper. Instances of different categories are saved in separate files. xxx_unsplit.txt keeps all the instances in the three categories combined. The number of instances in each category is listed in the table. 
 
 |     |*explicit*|*Implicit*|*Latent*|
 |-----|:-----:   |:-----:   |:----:  |
