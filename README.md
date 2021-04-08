@@ -8,11 +8,11 @@ The data has been divided into training set, development set and test set, conta
 
 Each subset is further divided into 3 sub-categories *explicit*, *implicit* and *latent*, as mentioned in Chen's paper. Instances of different categories are saved in separate files. xxx_unsplit.txt keeps all the instances in the three categories combined. The number of instances in each category is listed in the table. 
 
-|     |*explicit*|*Implicit*|*Latent*|
-|-----|:-----:   |:-----:   |:----:  |
-|Train|  393     |  220     |  1387  |
-|Dev  |  44      |  31      |  223   |
-|Test |  44      |  29      |  225   |
+|     |*explicit*|*Implicit*|*Latent*|* Total *|
+|-----|:-----:   |:-----:   |:----:  |:-------:|
+|Train|  393     |  220     |  1387  |  2000  |
+|Dev  |  44      |  31      |  223   |  298   |
+|Test |  44      |  29      |  225   |  298   |
 
 Besides, the name list and speech verb set are also provided. The speech verb set is used for the categorization mentioned above.
 
