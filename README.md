@@ -8,7 +8,7 @@ The data has been divided into training set, development set and test set, conta
 
 Each subset is further divided into 3 sub-categories *explicit*, *implicit* and *latent*, as mentioned in Chen's paper. Instances of different categories are saved in separate files. \*\*\*_unsplit.txt keeps all the instances in the three categories combined. The number of instances in each category is listed in the table. 
 
-|     |*explicit*|*Implicit*|*Latent*| Total |
+|     |*Explicit*|*Implicit*|*Latent*| Total |
 |-----|:-----:   |:-----:   |:----:  |:-------:|
 |Train|  393     |  220     |  1387  |  2000  |
 |Dev  |  44      |  31      |  223   |  298   |
